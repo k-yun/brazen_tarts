@@ -1,118 +1,181 @@
-body {font-family: Raleway;
-        
+#background { 
+        background-image: url(images/homepage_image.png);
+        background-repeat: no-repeat;
 }
-
 .banner {background-color: #331a00;
         height: 100px;
+        width: 1325px;
         font-size: 80px;
         margin: 10px;
         font-family: Tangerine;
         color: white;
         padding-top: 25px;
         text-align: center;
-        
+        opacity: 1;
 }
-
-
-.container {background-color: white;
-         
-}
-
-.body {background-color: pink;}
-
-.nav {height: 150px;
-        float: left;
+.nav {
+        height: 160px;
         background: #331a00;
-        width: 140px;
+        width: 160px;
         margin-top: 2px;
-        display: inline-block;
+        float: left;
         margin-left: 10px;
         margin-right: 2px;
-        
-        
 }
-
 .nav ul {
-        margin-top: 20px;
-        margin-left: 10px;
-        height: 100px;
-        width: 80px;
-        
-       
-}
-
-ul {list-style-type: none;} /*This makes bullets disappear in an unordered list*/
-
-.nav li {font-size: 30px;}
-
-
-a {color: white;
-        font-family: Tangerine;
-        font-size: 22px
-        
-        
-}
-
-
-.main {background-color: pink;
-        margin-top: 5px;
-        margin-left: 160px;
-        margin-right: 10px;
-        clear: right
-        display: inline-block;
-        
-}
-
-.main_about {background-color: pink;
-        margin-top: 5px;
-        margin-left: 250px;
-        margin-right: 20px;
-        clear: right
-        display: inline-block;}
-
-.soc_med {float:left;
-        clear:both;
+        margin-top: 30px;
         margin-left: 2px;
+        height: 100px;
+        width: 75px;
+}
+ul {list-style-type: none;}
+/*This makes bullets disappear in an unordered list*/
+
+.nav li {
+        font-size: 24px;
+}
+a:link {
+        color: white;
+        font-family: Tangerine;
+        text-align: left;
+}
+a:visited {
+        color: pink;
+}
+a:hover{
+        color: limegreen;
+}
+/*FOR SOCIAL MEDIA LINKS*/
+.soc_med {
+        clear: both;
+        width: 75px;
+        float: left;
+}
+/*****HOME PAGE*****/
+.main {background-color: pink;
+        font-size: 16px;
+}
+.logo img {
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 300px;
+        border: 1px solid #331a00;
+        border-radius: 250px;
+}
+/*****ABOUT PAGE*****/
+.main_about {
+        background-color: pink;
+        margin-left: 10px;
+        width: 1100px;
+        height: 340px;
+        display: inline-block;
+        padding: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 20px;
+        border: solid 1px #331a00;
 }
 
+/*MENU PAGE*/
+.main_menu {
+        width: 1130px;
+        height: 750px;
+        background-color: pink;
+        margin-top: 5px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        display: inline-block;
+        border: solid 1px #331a00;
+}
 
-.main img {width: 200px;
+.main_menu img {
+        width: 200px;
         height: 200px;
-       
+        display: inline-block;
+        border: 1px solid #331a00;
+}
+.main_menu p {
+        width: 200px;
+        display: inline-block;
+        text-align: center;
 }
 
-.main div { text-align: center;
-    
+.dessert1 {
+        text-align: center;
+        width: 250px;
+        height: 360px;
+        margin-left: 100px;
+        margin-right: 15px;
+        margin-top: 50px;
+        display: inline-block;
+}
+.dessert1 p {
+        width: 240px;
+        height: 100px;
+        margin-top: 1px;
+}
+.dessert1 img {
+        width: 230px;
+        height: 200px;
+        margin-right: 30px;
+}
+.dessert2 {
+        text-align: center;
+        width: 300px;
+        height: 250px;
+        display: inline-block;
+        margin-right: 30px;
+        margin-left: 15px;
+        margin-top: 50px;
 }
 
-.main img {margin-top: 20px;}
-
-
-p {text-align: center;
-
-.dessert1 {}
-
-.dessert2 {}
-
-.dessert3 {}
-
-.dessert4 {}
-
-.dessert5 {}
-
-.text1 { text-align: center;
-
+.dessert2 img {
+        height: 200px;
+        width: 250px;
 }
-          
-         
+.dessert3 {
+        text-align: center;
+        width: 300px;
+        height: 300px;
+        margin-left: 15px;
+        margin-right: 15px;
+        display: inline-block;
+        margin-top: 20px;
+}
+.dessert3 img {
+        height: 200px;
+        width: 260px;
+}
+.dessert4 {
+        width: 250px;
+        margin-left: 100px;
+        display: inline-block;
+        margin-right: 50px
+}
+.dessert4 img {
+        width: 250px;
+}
 
-.text2 {}
-
-.text3 {}
-
-.text4 {}
-
-.text5 {}
-
-/*for social media links. perhaps inline?*/
-.soc_med {}
+.dessert4 p {
+        width: 250px;
+}
+.dessert5 {
+        text-align: center;
+        width: 250px;
+        height: 300px;
+        display: inline-block;
+        margin-left:15px;
+        margin-bottom: 5px;
+     
+}
+.dessert5 img {
+        height: 200px;
+        width: 250px;
+        display: inline-block;
+}
+#menu_footer {
+        text-align: center;
+        font-size: 14px;
+}
